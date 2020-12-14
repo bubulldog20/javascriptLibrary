@@ -1,0 +1,13 @@
+#contactForm {
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.pink {
+    color: rgb(229, 186, 186);
+}
+.nav-item{
+    padding: 40px;
+    font-size: 20px;
+}
