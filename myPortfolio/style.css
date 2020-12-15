@@ -11,3 +11,16 @@
     padding: 40px;
     font-size: 20px;
 }
+.card {
+    margin: 20px;
+}
+.image {
+    height: 200px;
+    width: 285px;
+}
+.floatRight {
+    float: right;
+}
+.floatLeft {
+    float: left;
+}
