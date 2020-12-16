@@ -24,3 +24,6 @@
 .floatLeft {
     float: left;
 }
+#footer {
+    width: 100%;
+}
