@@ -8,29 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-secondary">
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <a class="navbar-brand" href="index.html"><img src="jeremyProfilePicture.jpg" height="60px" width="60px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-info">
+      <a class="navbar-brand" href="index.html"><img src="jeremyProfilePicture.jpg" height="60px" width="60px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              </div>
-            
-          </ul>
-          
-        </div>
-      </nav>
+        </ul> 
+      </div>
+  </nav>
       <div class="jumbotron">
         <h1 class="display-4" style="font-family: fantasy;">Jeremy Guler</h1>
         <p class="lead" style="font-family: fantasy;">Aspiring Web Developer</p>
@@ -126,8 +123,17 @@
     </div>
     <br>
     <footer id="footer" class="bg-info">
-      <p>My LinkedIn Profile</p>
-      <h2>why isn't this working</h2>
+      <div class="row">
+      <div style="padding: 10px;" class="col-4 center">
+        <button type="button" style="border-color: #6C757D; border-width: 3px;" class="btn-lg btn-light"><a style="color: white; font-size: 10px;" href="https://www.linkedin.com/in/jeremyguler2020/" target="blank"><img src="linkedIn.webp" height="50px" alt="LinkedIn Logo"></a></button>
+      </div>
+      <div style="padding: 10px;" class="col-4 center">
+        <button type="button" style="border-color: #6C757D; border-width: 3px;" class="btn-lg btn-light"><a style="color: white; font-size: 10px;" href="https://twitter.com/bulldog20" target="blank"><img src="twitter.webp" height="50px" alt="Twitter Logo"></a></button>
+      </div>
+      <div style="padding: 10px;" class="col-4 center">
+        <button type="button" style="border-color: #6C757D; border-width: 3px;" class="btn-lg btn-light"><a style="color: white; font-size: 10px;" href="https://www.facebook.com/thegulers" target="blank"><img src="facebook.png" height="50px" alt="Facebook Logo"></a></button>
+      </div>
+    </div>
     </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
